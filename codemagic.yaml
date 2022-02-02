@@ -1,0 +1,20 @@
+workflows:
+  testing-workflow:
+    name: iOS Workflow
+    environment:
+      vars:
+        XCODE_PROJECT: "CountriesSwiftUI.xcodeproj"
+        XCODE_SCHEME: "CountriesSwiftUI"
+      xcode: latest
+      cocoapods: default
+    triggering:
+      branch_patterns:
+        - pattern: "master"
+          include: true
+          source: true
+    scripts:
+      - name: Run tests
+        script: |
+          xcode-project run-tests \
+              --project "$XCODE_PROJECT" \
+              --scheme "$XCODE_SCHEME" \
