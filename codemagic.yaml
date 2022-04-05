@@ -1,6 +1,7 @@
 workflows:
   testing-workflow:
     name: iOS Workflow
+    instance_type: mac_pro
     environment:
       vars:
         XCODE_PROJECT: "CountriesSwiftUI.xcodeproj"
