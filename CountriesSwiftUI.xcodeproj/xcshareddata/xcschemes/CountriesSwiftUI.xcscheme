@@ -49,6 +49,28 @@
                ReferencedContainer = "container:CountriesSwiftUI.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "BF1AEAFF2916B56F0000EA72"
+               BuildableName = "AutomatedUISmokeTests.xctest"
+               BlueprintName = "AutomatedUISmokeTests"
+               ReferencedContainer = "container:CountriesSwiftUI.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "BF1FD638298BDD6B009E7BBD"
+               BuildableName = "CountriesSwiftUIUITestsppppp.xctest"
+               BlueprintName = "CountriesSwiftUIUITestsppppp"
+               ReferencedContainer = "container:CountriesSwiftUI.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
